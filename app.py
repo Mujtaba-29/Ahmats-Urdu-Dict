@@ -112,8 +112,7 @@ templates = templates = [
     "کہا جاتا ہے کہ {word} ایک ایسی شے ہے جو {feature}۔",
     "{word} کو دیکھ کر معلوم ہوتا ہے کہ یہ {feature}۔",
     "یہ ایک خاص شے ہے جسے {word} کہتے ہیں اور یہ {feature}۔"
-]
- + [f"یہ ایک منفرد شے ہے جو {{word}} کی طرح {i} نظر آتی ہو۔" for i in range(1, 47)]
+] + [f"یہ ایک منفرد شے ہے جو {{word}} کی طرح {i} نظر آتی ہو۔" for i in range(1, 47)]
 
 # Random features for the fictional meanings
 features = [
